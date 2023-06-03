@@ -1,8 +1,8 @@
 # Tip command
 ```bash
 # Build image and run container
-docker build -t localhost/ubuntu .
-docker run -it --name ubuntu localhost/ubuntu
+docker build -t localhost/ubuntu:22.04 .
+docker run -it --name ubuntu localhost/ubuntu:22.04
 docker exec -it ubuntu bash
 
 # Push image to ACR
